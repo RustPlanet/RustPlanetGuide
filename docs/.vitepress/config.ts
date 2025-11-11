@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/RustPlanet-Site/',
   cleanUrls: true,
   // 路由重写：将 /en/ 下的源文件映射为站点根路径，
   // 这样英文内容将以根路径提供，方便语言切换映射。
