@@ -47,7 +47,6 @@ RustPlanet is free on Android with no additional cost.
 
 ## Next Steps
 
-- Check out [Basic Concepts](/en/guide/basic-concepts) to learn more game mechanics
 - Learn how to [develop mods](/en/modding/introduction)
 - Join the [community](/en/community) for help and sharing experiences
 

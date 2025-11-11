@@ -47,7 +47,6 @@ RustPlanet 在Android平台免费提供，无需任何费用。
 
 ## 下一步
 
-- 查看[基本概念](/zh/guide/basic-concepts)了解更多游戏机制
 - 学习如何[开发模组](/zh/modding/introduction)
 - 加入[社区](/zh/community)获取帮助和分享经验
 
