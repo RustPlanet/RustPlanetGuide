@@ -35,10 +35,25 @@ html {
 }
 
 /* Hero 图片动画 */
+.VPHome .VPHero .image {
+  display: flex;
+  justify-content: center;
+  margin: -32px auto 0;
+  padding: 0 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.VPHome .VPHero .image .image-container {
+  margin: 0 auto;
+}
+
 .VPHome .VPHero .image img {
   animation: float 6s ease-in-out infinite;
   filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.1));
   margin-top: -100px;
+  max-width: 250px;
+  width: 100%;
 }
 
 .dark .VPHome .VPHero .image img {
@@ -235,5 +250,33 @@ html {
   
   .VPHero .tagline {
     font-size: 16px !important;
+  }
+
+  .VPHome .VPHero .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .VPHome .VPHero .image {
+    margin: 16px auto 0;
+    padding: 0;
+  }
+
+  .VPHome .VPHero .image .image-container {
+    width: min(320px, 85vw);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .VPHome .VPHero .image :is(.image-src, .VPImage) {
+    position: static !important;
+    transform: none !important;
+    width: min(280px, 80vw);
+    max-width: 100%;
+    height: auto !important;
+    max-height: 100% !important;
   }
 }

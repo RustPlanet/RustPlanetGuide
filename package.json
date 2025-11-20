@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/eam2539/RustPlanet-Site#readme",
   "devDependencies": {
+    "flexsearch": "^0.8.212",
     "vitepress": "^1.6.4"
   }
 }
