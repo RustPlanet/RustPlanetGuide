@@ -4,8 +4,8 @@
 
 ----
 
-[![Kotlin](https://img.shields.io/badge/kotlin-2.2.20-blue.svg?logo=kotlin)](http://kotlinlang.org)
-![GitHub Created At](https://img.shields.io/github/created-at/eam2539/RustPlanet-Site)
+[![Kotlin](https://img.shields.io/badge/kotlin-2.2.21-blue.svg?logo=kotlin)](http://kotlinlang.org)
+![GitHub Created At](https://img.shields.io/github/created-at/RustPlanet/RustPlanetGuide)
 
 RustPlanet 是一款跨平台的RTS游戏
 
@@ -20,7 +20,10 @@ RustPlanet 是一款跨平台的RTS游戏
 ## 🗺️ 开发路线图
 
 - [ ] 基本的游戏引擎和单位系统
-- [ ] 模组系统
+- [ ] 兼容RW-INI模组
+- [ ] 沙盒模式
+- [ ] 单人战役模式
+- [ ] 基于JS和Toml的模组系统
 - [ ] 基于P2P的联机系统
 
 ## 💬 社区讨论
@@ -33,5 +36,5 @@ RustPlanet 是一款跨平台的RTS游戏
 QQ : 3060309340
 
 ## 🙏 特别致谢
-
+LibGDX的开发者们
 ---

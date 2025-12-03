@@ -65,14 +65,14 @@ name = "my_awesome_mod"
 version = "1.0.0"
 author = "Your Name"
 description = "this is my awesome mod"
-
+minGameVersion = "1.0.0"
 [dependencies]
 base_game = "^1.0.0"
 
 ```
 
 ### 3. Creating Units
-RustPlanet's unit system uses a toml+lua structure, where each unit is a toml file containing unit properties and behaviors.
+RustPlanet's unit system uses a toml+js structure, where each unit is a toml file containing unit properties and behaviors.
 
 Unit properties example:
 
@@ -93,5 +93,11 @@ movementSpeed = 0.7
 acceleration = 1.5
 deceleration = 1.2
 
+
+```
+
+Corresponding script file example :
+```js
+// scripts/units/heavy_tank.js
 
 ```

@@ -26,7 +26,7 @@ features:
   - icon:
       src: /icons/modding.svg
     title: 模组系统
-    details: 基于LuaJ的模组系统支持，使用Toml+Lua脚本轻松自定义您的模组
+    details: 使用Toml和JS脚本轻松自定义您的模组，扩展游戏内容
   - icon:
       src: /icons/multiplayer.svg
     title: P2P 联机

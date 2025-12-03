@@ -65,14 +65,14 @@ name = "my_awesome_mod"
 version = "1.0.0"
 author = "Your Name"
 description = "this is my awesome mod"
-
+minGameVersion ="1.0.0"
 [dependencies]
 base_game = "^1.0.0"
 
 ```
 
 ### 3. 创建单位
-RustPlanet 的单位系统采用toml+lua 的结构，每个单位都是一个toml 文件，包含单位的属性和行为。
+RustPlanet 的单位系统采用js+lua 的结构，每个单位都是一个toml 文件，包含单位的属性和行为。
 
 单位属性示例：
 
@@ -93,5 +93,11 @@ movementSpeed = 0.7
 acceleration = 1.5
 deceleration = 1.2
 
+
+```
+对应的脚本文件:
+
+```js
+// scripts/units/heavy_tank.js
 
 ```

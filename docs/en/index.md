@@ -26,7 +26,7 @@ features:
   - icon:
       src: /icons/modding.svg
     title: Modding System
-    details: Lua-based modding system with TOML configuration for easy customization
+    details: JS-based modding system with TOML configuration for easy customization
   - icon:
       src: /icons/multiplayer.svg
     title: P2P Multiplayer
