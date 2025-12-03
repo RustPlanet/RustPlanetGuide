@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner](/images/banner.jpg)
+![Banner](/docs/public/logo.png)
 
 ----
 
@@ -11,7 +11,7 @@ RustPlanet 是一款跨平台的RTS游戏
 
 </div>
 
-> **项目状态**:当前项目仍在积极开发中，欢迎提交 Issue 和 Pull Request!
+> **项目状态**:当前项目文档仍在积极维护中，欢迎提交 Issue 和 Pull Request!
 
 ## 📖 文档语言
 

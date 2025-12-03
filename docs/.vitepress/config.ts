@@ -1,11 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-declare const process: { env?: Record<string, string | undefined> }
-
-const isNetlify = process.env.NETLIFY === 'true'
-
 export default defineConfig({
-  base: isNetlify ? '/' : '/RustPlanet-Site/',
   cleanUrls: true,
   themeConfig: {
     search: {

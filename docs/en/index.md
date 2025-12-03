@@ -16,7 +16,7 @@ hero:
       link: /tutorial/getting-started
     - theme: alt
       text: View on GitHub
-      link: https://github.com/eam2539/RustPlanet
+      link: https://github.com/RustPlanet/RustPlanetGuide
 
 features:
   - icon:
