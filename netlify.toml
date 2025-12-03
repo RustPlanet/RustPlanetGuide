@@ -1,6 +1,6 @@
 [build]
   # Build command for the VitePress site
-  command = "npm run docs:build"
+  command = "npm run build"
   # VitePress 的默认输出目录
   publish = "docs/.vitepress/dist"
 
