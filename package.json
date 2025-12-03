@@ -1,5 +1,5 @@
 {
-  "name": "rustplanet-site",
+  "name": "rustplanet-guide",
   "version": "1.0.0",
   "description": "RustPlanet official documentation website",
   "type": "module",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eam2539/RustPlanet-Site.git"
+    "url": "git+https://github.com/RustPlanet/RustPlanetGuide.git"
   },
   "keywords": [
     "rustplanet",
@@ -21,9 +21,9 @@
   "author": "RustPlanet Team",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/eam2539/RustPlanet-Site/issues"
+    "url": "https://github.com/RustPlanet/RustPlanetGuide/issues"
   },
-  "homepage": "https://github.com/eam2539/RustPlanet-Site#readme",
+  "homepage": "https://github.com/RustPlanet/RustPlanetGuide#readme",
   "devDependencies": {
     "flexsearch": "^0.8.212",
     "vitepress": "^1.6.4"
