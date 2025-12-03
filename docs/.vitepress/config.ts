@@ -52,7 +52,7 @@ export default defineConfig({
           ]
         },
         socialLinks: [
-          { icon: 'github', link: 'https://github.com/eam2539/RustPlanet' }
+          { icon: 'github', link: 'https://github.com/RustPlanet/RustPlanetGuide' }
         ],
         footer: {
           message: 'Released under Apache-2.0',
