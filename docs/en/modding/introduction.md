@@ -72,32 +72,51 @@ base_game = "^1.0.0"
 ```
 
 ### 3. Creating Units
-RustPlanet's unit system uses a toml+js structure, where each unit is a toml file containing unit properties and behaviors.
+RustPlanet's unit is a js script containing unit properties and behaviors.
 
-Unit properties example:
+Unit definition example:
 
-```toml
-[core]
-id = "heavy_tank"
-name = "heavy_tank"
-armor = 15
-speed = 0.7
-attackDamage = 40
-attackRange = 7
-maxHp=500
-energy=100
+```JavaScript
+// scripts/units/tank.js
 
-[movement]
-type = "LAND"
-movementSpeed = 0.7
-acceleration = 1.5
-deceleration = 1.2
+let attackComponent = {
+   attackDamage: 40,
+   attackRange: 7
+};
+let coreComponent = {
+   name: "heavy_tank",
+   maxHp: 500,
+   speed: 0.7,
+   energy: 100
+};
+let moveComponent = {
+   type: "LAND",
+   movementSpeed: 0.7,
+   acceleration: 1.5,
+   deceleration: 1.2
+};
+let actionComponent = {
+   onDeath: function() {
+       playAnimation("death");
+   },
+   onAttack: function(target) {
+       playAnimation("attack");
+   },
+   onMove: function(destination) {
+      playAnimation("move");
+   },
+   onIdle: function() {
+      playAnimation("idle");
+   }
+};
 
+export const unit = {
+   core: coreComponent,
+   attack: attackComponent,
+   move: moveComponent,
+   action: actionComponent
+};
 
 ```
 
-Corresponding script file example :
-```js
-// scripts/units/heavy_tank.js
-
-```
+### 4. Packaging the Mod

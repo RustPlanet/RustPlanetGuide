@@ -19,28 +19,22 @@ hero:
       link: https://github.com/RustPlanet/RustPlanetGuide
 
 features:
-  - icon:
-      src: /icons/platform.svg
+  - icon: 🎮
     title: 跨平台支持
     details: 支持多个平台运行，包括 Windows、Linux、macOS 和 Android
-  - icon:
-      src: /icons/modding.svg
+  - icon: 🛠️
     title: 模组系统
-    details: 使用Toml和JS脚本轻松自定义您的模组，扩展游戏内容
-  - icon:
-      src: /icons/multiplayer.svg
+    details: 使用JS脚本轻松自定义您的模组，扩展游戏内容
+  - icon: 🌐
     title: P2P 联机
     details: 基于 P2P 的联机系统，去中心化的多人游戏体验
-  - icon:
-      src: /icons/rw-mod.svg
+  - icon: 🧩
     title: RW模组支持
     details: 提供对经典游戏模组格式的兼容，轻松导入和使用现有内容
-  - icon:
-      src: /icons/steam.svg
+  - icon: 🚀
     title: Steam支持
     details: 轻松接入 Steam 平台，享受更多社区和联机功能
-  - icon:
-      src: /icons/physics.svg
+  - icon: 📦
     title: Box2D引擎
     details: 基于Box2D的物理引擎，提供真实的碰撞检测和物理模拟效果    
 

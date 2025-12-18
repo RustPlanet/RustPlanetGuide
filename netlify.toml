@@ -9,10 +9,3 @@
   # Local dev command (used with Netlify Dev if desired)
   command = "npm run docs:dev"
   port = 5173
-
-[[redirects]]
-  # SPA fallback：将未命中路径重写到 index.html（状态 200）
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  force = false

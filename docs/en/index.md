@@ -19,28 +19,22 @@ hero:
       link: https://github.com/RustPlanet/RustPlanetGuide
 
 features:
-  - icon:
-      src: /icons/platform.svg
+  - icon: 🎮
     title: Cross-Platform Support
     details: Run on multiple platforms including Windows, Linux, macOS, and Android
-  - icon:
-      src: /icons/modding.svg
+  - icon: 🛠️
     title: Modding System
-    details: JS-based modding system with TOML configuration for easy customization
-  - icon:
-      src: /icons/multiplayer.svg
+    details: JS-based modding system for easy customization
+  - icon: 🌐
     title: P2P Multiplayer
     details: Decentralized P2P networking system for true multiplayer experience
-  - icon:
-      src: /icons/rw-mod.svg
+  - icon: 🧩
     title: RW Mod Support
     details: Compatible with classic game mod formats for easy content migration
-  - icon:
-      src: /icons/steam.svg
+  - icon: 🚀
     title: Steam Integration
     details: Built-in Steam platform support for community and multiplayer features
-  - icon:
-      src: /icons/physics.svg
+  - icon: 📦
     title: Box2D Physics
     details: Advanced physics engine with realistic collision detection and simulation
 

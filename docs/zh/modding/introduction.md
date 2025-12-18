@@ -72,32 +72,53 @@ base_game = "^1.0.0"
 ```
 
 ### 3. 创建单位
-RustPlanet 的单位系统采用js+lua 的结构，每个单位都是一个toml 文件，包含单位的属性和行为。
+RustPlanet 的每个单位都是一个 JS 脚本，包含单位的属性和行为。
 
-单位属性示例：
+单位示例：
 
-```toml
-[core]
-id = "heavy_tank"
-name = "heavy_tank"
-armor = 15
-speed = 0.7
-attackDamage = 40
-attackRange = 7
-maxHp=500
-energy=100
+```JavaScript
+// scripts/units/tank.js
 
-[movement]
-type = "LAND"
-movementSpeed = 0.7
-acceleration = 1.5
-deceleration = 1.2
+let attackComponent = {
+   attackDamage: 40,
+   attackRange: 7
+};
+let coreComponent = {
+   name: "heavy_tank",
+   maxHp: 500,
+   speed: 0.7,
+   energy: 100
+};
+let moveComponent = {
+   type: "LAND",
+   movementSpeed: 0.7,
+   acceleration: 1.5,
+   deceleration: 1.2
+};
+let actionComponent = {
+   onDeath: function() {
+       playAnimation("death");
+   },
+   onAttack: function(target) {
+       playAnimation("attack");
+   },
+   onMove: function(destination) {
+      playAnimation("move");
+   },
+   onIdle: function() {
+      playAnimation("idle");
+   }
+};
 
+export const unit = {
+   core: coreComponent,
+   attack: attackComponent,
+   move: moveComponent,
+   action: actionComponent
+};
 
 ```
-对应的脚本文件:
 
-```js
-// scripts/units/heavy_tank.js
+### 4. 打包模组
 
-```
+
