@@ -2,6 +2,9 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   cleanUrls: true,
+  sitemap: {
+    hostname: 'https://rustplanet.netlify.app'
+  },
   themeConfig: {
     search: {
       provider: 'local'
